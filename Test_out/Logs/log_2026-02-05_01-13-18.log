@@ -1,0 +1,84 @@
+[INFO] 05-02-2026 01:13:18 [main] [com.challenge.listeners.TestNGListeners] - Cleaned Allure results
+[INFO] 05-02-2026 01:13:18 [main] [com.challenge.listeners.TestNGListeners] - Cleaned Logfile
+[INFO] 05-02-2026 01:13:18 [main] [com.challenge.listeners.TestNGListeners] - Cleaned Screenshots Folder
+[INFO] 05-02-2026 01:13:18 [main] [com.challenge.listeners.TestNGListeners] - Starting execution
+[INFO] 05-02-2026 01:13:18 [main] [com.challenge.listeners.TestNGListeners] - Loaded properties
+[INFO] 05-02-2026 01:13:19 [main] [com.challenge.drivers.GUIFactory] - Starting driver for browser: CHROME
+[INFO] 05-02-2026 01:13:21 [main] [com.challenge.utils.actions.BrowserAction] - Browser window maximized
+[INFO] 05-02-2026 01:13:25 [main] [com.challenge.utils.actions.BrowserAction] - Navigated to: https://app-simulation.nazeel.net/
+[INFO] 05-02-2026 01:13:26 [main] [com.challenge.listeners.TestNGListeners] - Test Case CreateNewReservation started
+[INFO] 05-02-2026 01:13:27 [main] [com.challenge.utils.actions.ElementAction] - Typed text 'NourMohamed' into element: By.id: usern
+[INFO] 05-02-2026 01:13:27 [main] [com.challenge.utils.actions.ElementAction] - Typed text 'Nm&123456' into element: By.id: pass
+[INFO] 05-02-2026 01:13:27 [main] [com.challenge.utils.actions.ElementAction] - Typed text '01373' into element: By.id: acc
+[INFO] 05-02-2026 01:13:27 [main] [com.challenge.utils.WaitManager] - Waiting for captcha to be verified manually...
+[INFO] 05-02-2026 01:14:07 [main] [com.challenge.utils.WaitManager] - Captcha wait time expired. Continuing with test execution...
+[INFO] 05-02-2026 01:14:07 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //button[contains(text(),'Login')]
+[INFO] 05-02-2026 01:14:07 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //div[contains(text(),'User Verification')]
+[INFO] 05-02-2026 01:14:11 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //div[contains(text(),'User Verification')]
+[INFO] 05-02-2026 01:14:11 [main] [com.challenge.utils.actions.BrowserAction] - Current URL: https://app-simulation.nazeel.net/dashboard
+[INFO] 05-02-2026 01:14:11 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //span[contains(text(),' Later')]
+[INFO] 05-02-2026 01:14:11 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //span[contains(text(),' Later')]
+[INFO] 05-02-2026 01:14:11 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //span[contains(text(),' Later')]
+[INFO] 05-02-2026 01:14:11 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //button[contains(text(),'Close')]
+[INFO] 05-02-2026 01:14:31 [main] [com.challenge.pages.Page02_Dashboard] - Close button not found, no popup to close.
+[INFO] 05-02-2026 01:14:31 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //a[@ng-reflect-text='Reservations']
+[INFO] 05-02-2026 01:14:31 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //h2[contains(text(),'Reservations')]
+[INFO] 05-02-2026 01:14:34 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //h2[contains(text(),'Reservations')]
+[INFO] 05-02-2026 01:14:34 [main] [com.challenge.utils.actions.BrowserAction] - Current URL: https://app-simulation.nazeel.net/reservations
+[INFO] 05-02-2026 01:14:36 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //button[text()=' New Reservation ']
+[INFO] 05-02-2026 01:14:36 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //h2[text()=' New reservation ']
+[INFO] 05-02-2026 01:14:36 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //h2[text()=' New reservation ']
+[INFO] 05-02-2026 01:14:36 [main] [com.challenge.utils.actions.BrowserAction] - Current URL: https://app-simulation.nazeel.net/reservations/wizard/add
+[INFO] 05-02-2026 01:14:36 [main] [com.challenge.utils.WaitManager] - Waiting for element to be clickable: By.xpath:  (//span[@class='k-input'])[1]
+[INFO] 05-02-2026 01:14:36 [main] [com.challenge.utils.WaitManager] - Element is now clickable: By.xpath:  (//span[@class='k-input'])[1]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath:  (//span[@class='k-input'])[1]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //ul[contains(@class,'k-list')]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //ul[contains(@class,'k-list')]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Waiting for element to be clickable: By.xpath: //ul[contains(@class,'k-list')]//li[contains(@class,'k-item') and normalize-space(text())='Tourism']
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Element is now clickable: By.xpath: //ul[contains(@class,'k-list')]//li[contains(@class,'k-item') and normalize-space(text())='Tourism']
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //ul[contains(@class,'k-list')]//li[contains(@class,'k-item') and normalize-space(text())='Tourism']
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.pages.Page04_AddReservation] - Selected Visit Purpose option: Tourism
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Waiting for element to be clickable: By.xpath:  (//span[@class='k-input'])[2]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Element is now clickable: By.xpath:  (//span[@class='k-input'])[2]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath:  (//span[@class='k-input'])[2]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //ul[contains(@class,'k-list')]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //ul[contains(@class,'k-list')]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Waiting for element to be clickable: By.xpath: (//ul[contains(@class,'k-list')]//li[contains(@class,'k-item')])[1]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Element is now clickable: By.xpath: (//ul[contains(@class,'k-list')]//li[contains(@class,'k-item')])[1]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: (//ul[contains(@class,'k-list')]//li[contains(@class,'k-item')])[1]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.pages.Page04_AddReservation] - Selected first Reservation Source option
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //div//span [contains(@class,'primary-link')]
+[INFO] 05-02-2026 01:14:37 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //div//span [contains(@class,'primary-link')]
+[INFO] 05-02-2026 01:14:38 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //div//span [contains(@class,'primary-link')]
+[INFO] 05-02-2026 01:14:38 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //div[text()=' Select Unit(s)']
+[INFO] 05-02-2026 01:14:38 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //div[text()=' Select Unit(s)']
+[INFO] 05-02-2026 01:14:38 [main] [com.challenge.utils.actions.ElementAction] - Got text 'Select Unit(s)' from element: By.xpath: //div[text()=' Select Unit(s)']
+[INFO] 05-02-2026 01:14:38 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //button[.=' Load More... ']
+[INFO] 05-02-2026 01:14:38 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //p[@ng-reflect-text='17']
+[INFO] 05-02-2026 01:14:39 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //p[@ng-reflect-text='17']
+[INFO] 05-02-2026 01:14:39 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //p[@ng-reflect-text='17']
+[INFO] 05-02-2026 01:14:39 [main] [com.challenge.utils.WaitManager] - Waiting for element to be clickable: By.xpath: //span[.='Confirm']
+[INFO] 05-02-2026 01:14:39 [main] [com.challenge.utils.WaitManager] - Element is now clickable: By.xpath: //span[.='Confirm']
+[INFO] 05-02-2026 01:14:39 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //span[.='Confirm']
+[INFO] 05-02-2026 01:14:39 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //td[text()=' 17 ']
+[INFO] 05-02-2026 01:14:39 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //td[text()=' 17 ']
+[INFO] 05-02-2026 01:14:40 [main] [com.challenge.utils.actions.ElementAction] - Got text '17' from element: By.xpath: //td[text()=' 17 ']
+[INFO] 05-02-2026 01:14:40 [main] [com.challenge.utils.WaitManager] - Waiting for element to be clickable: By.xpath: //span[.='Select guest now']
+[INFO] 05-02-2026 01:14:40 [main] [com.challenge.utils.WaitManager] - Element is now clickable: By.xpath: //span[.='Select guest now']
+[INFO] 05-02-2026 01:14:40 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //span[.='Select guest now']
+[INFO] 05-02-2026 01:14:40 [main] [com.challenge.utils.WaitManager] - Waiting for element to be clickable: By.xpath: //input[@placeholder='ID Number']
+[INFO] 05-02-2026 01:14:40 [main] [com.challenge.utils.WaitManager] - Element is now clickable: By.xpath: //input[@placeholder='ID Number']
+[INFO] 05-02-2026 01:14:41 [main] [com.challenge.utils.actions.ElementAction] - Typed text '123456789' into element: By.xpath: //input[@placeholder='ID Number']
+[INFO] 05-02-2026 01:14:41 [main] [com.challenge.utils.WaitManager] - Waiting for element to be clickable: By.xpath: //button[.='Search']
+[INFO] 05-02-2026 01:14:41 [main] [com.challenge.utils.WaitManager] - Element is now clickable: By.xpath: //button[.='Search']
+[INFO] 05-02-2026 01:14:41 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //button[.='Search']
+[INFO] 05-02-2026 01:14:41 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //span[.='Test Test']
+[INFO] 05-02-2026 01:14:41 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //span[.='Test Test']
+[INFO] 05-02-2026 01:14:41 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //span[.='Test Test']
+[INFO] 05-02-2026 01:14:41 [main] [com.challenge.utils.WaitManager] - Waiting for element to be clickable: By.xpath: //button[text()='Confirm']
+[INFO] 05-02-2026 01:14:42 [main] [com.challenge.utils.WaitManager] - Element is now clickable: By.xpath: //button[text()='Confirm']
+[INFO] 05-02-2026 01:14:42 [main] [com.challenge.utils.actions.ElementAction] - Clicked on element: By.xpath: //button[text()='Confirm']
+[INFO] 05-02-2026 01:14:42 [main] [com.challenge.utils.WaitManager] - Waiting for element to be visible: By.xpath: //div[text()=' 123456789 ']
+[INFO] 05-02-2026 01:14:42 [main] [com.challenge.utils.WaitManager] - Element is now visible: By.xpath: //div[text()=' 123456789 ']
+[INFO] 05-02-2026 01:14:42 [main] [com.challenge.utils.actions.ElementAction] - Got text '123456789' from element: By.xpath: //div[text()=' 123456789 ']
+[INFO] 05-02-2026 01:14:42 [main] [com.challenge.listeners.TestNGListeners] - Test CreateNewReservation passed.
