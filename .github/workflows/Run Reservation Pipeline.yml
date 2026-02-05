@@ -29,5 +29,5 @@ jobs:
           maven-version: 3.9.9
 
       - name: Run Reservation Creation TestScenarios
-        run:  mvn -DsuiteXmlFile="test.xml" clean test
+        run:  mvn -DsuiteXmlFile="test.xml" -DexecutionType="LocalHeadless" clean test
         continue-on-error: true
