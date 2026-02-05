@@ -18,15 +18,30 @@ The automation script is designed to simulate a user journey from logging in to 
 ---
 ## ✅ Framework Components
 
-| Module / Layer           | Responsibility                                                                 |
-|--------------------------|---------------------------------------------------------------------------------|
-| **Driver Management**     | Manages browser drivers using Factory pattern (`Chrome`, `Firefox`, `Edge`).   |
+| Module / Layer            | Responsibility                                                                 |
+|---------------------------|--------------------------------------------------------------------------------|
+| **Driver Management**     | Manages browser drivers using Factory pattern (`Chrome`).   |
 | **Configuration Loader**  | Loads test configs and environment data from `.properties` & `JSON` files.     |
 | **Data Reader**           | Handles test data extraction from external sources (JSON, properties).         |
-| **Page Objects**          | Implements the Page Object Model (POM) for modular and maintainable code.      |
-| **Actions Layer**         | Contains reusable methods for UI interactions (clicks, input, scrolling). |
+| **Page Objects**          | Implements the Page Object Model (POM) for modular and maintainable code.       |
+| **Actions Layer**         | Contains reusable methods for UI interactions (clicks, input, scrolling).     |
+| **Wait Manager**          | Centralizes explicit and conditional waits for stable execution.               |
+| **Time Manager**          | Manages timeouts and execution timing configurations.                           |
 | **Assertion Layer**       | Wraps TestNG assertions with custom hard/soft assertion handlers.              |
-| **Listeners & Reporting** | Integrates TestNG listeners + Allure for detailed HTML reporting with screenshots. |
+| **Allure Utility**        | Handles Allure steps, attachments, and reporting helpers.                      |
+| **Listeners & Reporting** | Integrates TestNG listeners with Allure for detailed reports and screenshots.  |
+
+---
+# 🔑Key Features
+
+- Automated login to Nazeel Staging.
+- Supports **Manual reCAPTCHA resolution** using a predefined wait time before resuming automation execution.
+- Handling post-login popups.
+- Navigation to Reservation page.
+- Creating a new reservation (visit purpose & source selection).
+- Selecting unit and guest via popups.
+- Completing new reservation creation.
+- Validating successful reservation creation.
 ---
 ## 📂 Project Structure
 ```plaintext
