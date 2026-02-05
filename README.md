@@ -15,8 +15,6 @@ The automation script is designed to simulate a user journey from logging in to 
 | **Data-Driven Testing**     | Uses external sources (JSON, Properties) to avoid hard-coded values and improve test maintainability. |
 | **Allure**                  | Reporting tool for generating detailed test execution reports.                |
 | **Git**                     | Version control system for source code management.                            |
-| **GitHub Action**           |      CI/CD workflow automation for running tests automatically.                                                                         |
-
 ---
 ## ✅ Framework Components
 
@@ -29,17 +27,11 @@ The automation script is designed to simulate a user journey from logging in to 
 | **Actions Layer**         | Contains reusable methods for UI interactions (clicks, input, scrolling). |
 | **Assertion Layer**       | Wraps TestNG assertions with custom hard/soft assertion handlers.              |
 | **Listeners & Reporting** | Integrates TestNG listeners + Allure for detailed HTML reporting with screenshots. |
-| **CI/CD Pipeline**        | GitHub Actions workflow for automated test execution and reporting.            |
-
 ---
 ## 📂 Project Structure
 ```plaintext
 Automation_Task/
 |
-├─── .github
-│   └─── workflows
-│   │      └─── Run Reservation Pipeline.yml
-│   │       
 ├─── .idea
 ├─── .mvn
 ├─── src
@@ -139,13 +131,6 @@ Run tests using the following Maven commands (via `.bat` or terminal):
   ```
 - Allure Report is automatically generated via a `.bat` file using CMD.  
 - After the report is generated, copy the folder path and paste it into your browser's address bar, then add `/index.html` at the end of the path to view the report.
-
-### ⚡ Run via GitHub Actions CI/CD Pipeline
-1. Push your code changes to the GitHub repository.
-2. The GitHub Actions workflow (`Run Reservation Pipeline.yml`) will trigger automatically on pushes to the `main` branch.
-3. The workflow will set up the environment, install dependencies, and execute the tests.
-4. After completion, the workflow will generate and upload the Allure report as an artifact.
-5. You can download and view the Allure report from the Actions tab in your GitHub repository.
 ---
 
 ## 🖼️ Test Report Screen
