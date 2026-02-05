@@ -1,0 +1,33 @@
+name: Reservation Creation Pipeline
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  Chrome_Linux_Test:
+    runs-on: ubuntu-latest
+    permissions:
+      checks: write
+    steps:
+      - name: checkout Code
+        uses: actions/checkout@v5
+
+      - name: setup java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: '21'
+
+      - name: setup maven
+        uses: stCarolas/setup-maven@v5
+        with:
+          maven-version: 3.9.9
+
+      - name: Run Reservation Creation TestScenarios
+        run:  mvn -DsuiteXmlFile="test.xml" clean test
+        continue-on-error: true
