@@ -1,8 +1,10 @@
-# 💻 Nazeel Web Automation Task for Creating Reservation
+# Nazeel Web Automation Task for Creating Reservation
+
 This project automates the complete reservation process in the **Nazeel** Staging website using **Selenium WebDriver with Java, TestNG, and Maven** frameworks, with test execution reported using **Allure**.
 The automation script is designed to simulate a user journey from logging in to successfully creating a reservation, ensuring that all critical functionalities of the reservation system are thoroughly tested.
+
 ---
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Tool                        | Responsibility                                                                |
 |-----------------------------|-------------------------------------------------------------------------------|
@@ -16,7 +18,7 @@ The automation script is designed to simulate a user journey from logging in to 
 | **Allure**                  | Reporting tool for generating detailed test execution reports.                |
 | **Git**                     | Version control system for source code management.                            |
 ---
-## ✅ Framework Components
+## Framework Components
 
 | Module / Layer            | Responsibility                                                                 |
 |---------------------------|--------------------------------------------------------------------------------|
@@ -43,7 +45,8 @@ The automation script is designed to simulate a user journey from logging in to 
 - Completing new reservation creation.
 - Validating successful reservation creation.
 ---
-## 📂 Project Structure
+## Project Structure
+
 ```plaintext
 Automation_Task/
 |
