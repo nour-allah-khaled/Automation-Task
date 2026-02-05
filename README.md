@@ -34,19 +34,18 @@ The automation script is designed to simulate a user journey from logging in to 
 | **Listeners & Reporting** | Integrates TestNG listeners with Allure for detailed reports and screenshots.  |
 
 ---
-# 🔑Key Features
+## Key Features
 
 - Automated login to Nazeel Staging.
 - Supports **Manual reCAPTCHA resolution** using a predefined wait time before resuming automation execution.
 - Handling post-login popups.
-- Navigation to Reservation page.
+- Navigation to the Reservation page.
 - Creating a new reservation (visit purpose & source selection).
-- Selecting unit and guest via popups.
+- Selecting the unit and the guest via pop-ups.
 - Completing new reservation creation.
 - Validating successful reservation creation.
 ---
 ## Project Structure
-
 ```plaintext
 Automation_Task/
 |
